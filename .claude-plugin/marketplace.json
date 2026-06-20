@@ -1,6 +1,6 @@
 {
   "$schema": "https://code.claude.com/docs/en/plugin-marketplaces",
-  "description": "CodingJoe's Claude Code marketplace \u2014 skills and MCP servers for esupgrade, VoIP, naming-things, and SuperJoe.",
+  "description": "CodingJoe's Claude Code marketplace \u2014 skills and MCP servers for esupgrade, VoIP, naming-things, reLint, and SuperJoe.",
   "name": "codingjoe",
   "owner": {
     "email": "security@codingjoe.dev",
@@ -88,6 +88,28 @@
       "repository": "https://github.com/codingjoe/naming-things",
       "source": {
         "repo": "codingjoe/naming-things",
+        "source": "github"
+      }
+    },
+    {
+      "author": {
+        "email": "security@codingjoe.dev",
+        "name": "Johannes Maron"
+      },
+      "description": "Regular Expression Linter \u2014 write your own linting rules using regular expressions. Skills for running relint and authoring new rules.",
+      "displayName": "reLint",
+      "homepage": "https://github.com/codingjoe/relint",
+      "keywords": [
+        "linter",
+        "regex",
+        "linting",
+        "rules"
+      ],
+      "license": "MIT",
+      "name": "relint",
+      "repository": "https://github.com/codingjoe/relint",
+      "source": {
+        "repo": "codingjoe/relint",
         "source": "github"
       }
     },
