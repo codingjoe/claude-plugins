@@ -1,0 +1,116 @@
+{
+  "$schema": "https://code.claude.com/docs/en/plugin-marketplaces",
+  "description": "CodingJoe's Claude Code marketplace \u2014 skills and MCP servers for esupgrade, VoIP, naming-things, and SuperJoe.",
+  "name": "codingjoe",
+  "owner": {
+    "email": "security@codingjoe.dev",
+    "name": "Johannes Maron"
+  },
+  "plugins": [
+    {
+      "author": {
+        "email": "security@codingjoe.dev",
+        "name": "Johannes Maron"
+      },
+      "description": "Auto-upgrade JavaScript and TypeScript syntax to new ECMAScript features based on browser support.",
+      "displayName": "esupgrade",
+      "homepage": "https://github.com/codingjoe/esupgrade",
+      "keywords": [
+        "javascript",
+        "ecmascript",
+        "modernize",
+        "upgrade",
+        "codemod",
+        "ast",
+        "transform"
+      ],
+      "license": "BSD-2-Clause",
+      "name": "esupgrade",
+      "repository": "https://github.com/codingjoe/esupgrade",
+      "source": {
+        "repo": "codingjoe/esupgrade",
+        "source": "github"
+      }
+    },
+    {
+      "author": {
+        "email": "security@codingjoe.dev",
+        "name": "Johannes Maron"
+      },
+      "description": "Async VoIP library for the AI age. Ships an MCP server to make phone calls and (planned) skills.",
+      "displayName": "VoIP",
+      "homepage": "https://codingjoe.dev/VoIP/",
+      "keywords": [
+        "voip",
+        "sip",
+        "telephony",
+        "voice",
+        "webrtc",
+        "mcp"
+      ],
+      "license": "BSD-2-Clause",
+      "mcpServers": {
+        "VoIP": {
+          "args": [
+            "voip[mcp]",
+            "mcp"
+          ],
+          "command": "uvx",
+          "env": {
+            "SIP_AOR": "sip:USER:PASSWORD@example.com:5060?transport=tcp"
+          },
+          "type": "stdio"
+        }
+      },
+      "name": "voip",
+      "repository": "https://github.com/codingjoe/VoIP",
+      "source": {
+        "repo": "codingjoe/VoIP",
+        "source": "github"
+      },
+      "strict": false
+    },
+    {
+      "author": {
+        "email": "security@codingjoe.dev",
+        "name": "Johannes Maron"
+      },
+      "description": "Naming conventions guidelines \u2014 solving computer science's second-hardest problem.",
+      "displayName": "naming-things",
+      "homepage": "https://github.com/codingjoe/naming-things",
+      "keywords": [
+        "conventions",
+        "naming",
+        "style"
+      ],
+      "license": "CC0-1.0",
+      "name": "naming-things",
+      "repository": "https://github.com/codingjoe/naming-things",
+      "source": {
+        "repo": "codingjoe/naming-things",
+        "source": "github"
+      }
+    },
+    {
+      "author": {
+        "email": "security@codingjoe.dev",
+        "name": "Johannes Maron"
+      },
+      "description": "SuperJoe \u2014 CodingJoe's digital clone following his coding guidelines and best practices.",
+      "displayName": "SuperJoe",
+      "homepage": "https://github.com/codingjoe/superjoe",
+      "keywords": [
+        "agent",
+        "guidelines",
+        "coding-standards"
+      ],
+      "license": "BSD-2-Clause",
+      "name": "superjoe",
+      "repository": "https://github.com/codingjoe/superjoe",
+      "source": {
+        "repo": "codingjoe/superjoe",
+        "source": "github"
+      }
+    }
+  ]
+}
