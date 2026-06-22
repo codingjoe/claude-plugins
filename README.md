@@ -1,3 +1,5 @@
+<img width="1280" height="640" alt="CodingJoe's Claude Code Marketplace" src="https://github.com/user-attachments/assets/93718504-bc00-42cf-9f22-7d554d62e3af" />
+
 # CodingJoe's Claude Code Marketplace
 
 A [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces)
