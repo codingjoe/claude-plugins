@@ -13,7 +13,7 @@ collecting [codingjoe](https://github.com/codingjoe)'s skills and MCP servers.
 | [VoIP](https://codingjoe.dev/VoIP/)                         | Skill + MCP | `codingjoe/VoIP`          | Async VoIP library for the AI age. Bundles an MCP server to make phone calls on your behalf.       |
 | [naming-things](https://github.com/codingjoe/naming-things) | Skill       | `codingjoe/naming-things` | Naming conventions guidelines — solving computer science's second-hardest problem.                 |
 | [reLint](https://github.com/codingjoe/relint)               | Skill       | `codingjoe/relint`        | Regular Expression Linter — write your own linting rules using regular expressions.                |
-| [SuperJoe](https://github.com/codingjoe/superjoe)           | Skill       | `codingjoe/superjoe`      | SuperJoe — CodingJoe's digital clone following his coding guidelines and best practices.           |
+| [SuperJoe](https://github.com/codingjoe/superjoe)           | Skill + Agents| `codingjoe/superjoe`      | SuperJoe — CodingJoe's digital clone following his coding guidelines and best practices.           |
 
 ## Install
 
