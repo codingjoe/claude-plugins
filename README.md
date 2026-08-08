@@ -1,9 +1,10 @@
 <img width="1280" height="640" alt="CodingJoe's Claude Code Marketplace" src="https://github.com/user-attachments/assets/6b83b99d-dc99-44b1-b42d-b3d96ae40687" />
 
-# CodingJoe's Claude Code Marketplace
+# CodingJoe's Plugin Marketplace
 
-A [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces)
-collecting [codingjoe](https://github.com/codingjoe)'s skills and MCP servers.
+A plugin marketplace collecting [codingjoe](https://github.com/codingjoe)'s
+skills and MCP servers for [Claude Code](https://code.claude.com/docs/en/plugin-marketplaces)
+and [Codex](https://developers.openai.com/codex).
 
 ## Plugins
 
@@ -17,6 +18,8 @@ collecting [codingjoe](https://github.com/codingjoe)'s skills and MCP servers.
 
 ## Install
 
+### Claude Code
+
 Add this marketplace and install any of its plugins:
 
 ```console
@@ -26,6 +29,19 @@ Add this marketplace and install any of its plugins:
 /plugin install naming-things@codingjoe
 /plugin install relint@codingjoe
 /plugin install superjoe@codingjoe
+```
+
+### Codex
+
+Add this marketplace and install any of its plugins:
+
+```console
+codex plugin marketplace add codingjoe/claude-plugins
+codex plugin add esupgrade@codingjoe
+codex plugin add voip@codingjoe
+codex plugin add naming-things@codingjoe
+codex plugin add relint@codingjoe
+codex plugin add superjoe@codingjoe
 ```
 
 ## License
