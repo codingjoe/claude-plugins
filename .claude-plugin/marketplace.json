@@ -1,6 +1,9 @@
 {
   "$schema": "https://code.claude.com/docs/en/plugin-marketplaces",
   "description": "CodingJoe's Claude Code marketplace \u2014 skills and MCP servers for esupgrade, VoIP, naming-things, reLint, and SuperJoe.",
+  "interface": {
+    "displayName": "CodingJoe's Codex Marketplace"
+  },
   "name": "codingjoe",
   "owner": {
     "email": "security@codingjoe.dev",
@@ -28,8 +31,8 @@
       "name": "esupgrade",
       "repository": "https://github.com/codingjoe/esupgrade",
       "source": {
-        "repo": "codingjoe/esupgrade",
-        "source": "github"
+        "source": "url",
+        "url": "https://github.com/codingjoe/esupgrade"
       }
     },
     {
@@ -65,8 +68,8 @@
       "name": "voip",
       "repository": "https://github.com/codingjoe/VoIP",
       "source": {
-        "repo": "codingjoe/VoIP",
-        "source": "github"
+        "source": "url",
+        "url": "https://github.com/codingjoe/VoIP"
       },
       "strict": false
     },
@@ -87,8 +90,8 @@
       "name": "naming-things",
       "repository": "https://github.com/codingjoe/naming-things",
       "source": {
-        "repo": "codingjoe/naming-things",
-        "source": "github"
+        "source": "url",
+        "url": "https://github.com/codingjoe/naming-things"
       }
     },
     {
@@ -109,8 +112,8 @@
       "name": "relint",
       "repository": "https://github.com/codingjoe/relint",
       "source": {
-        "repo": "codingjoe/relint",
-        "source": "github"
+        "source": "url",
+        "url": "https://github.com/codingjoe/relint"
       }
     },
     {
@@ -130,8 +133,8 @@
       "name": "superjoe",
       "repository": "https://github.com/codingjoe/superjoe",
       "source": {
-        "repo": "codingjoe/superjoe",
-        "source": "github"
+        "source": "url",
+        "url": "https://github.com/codingjoe/superjoe"
       }
     }
   ]
