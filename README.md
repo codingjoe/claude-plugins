@@ -8,13 +8,14 @@ and [Codex](https://developers.openai.com/codex).
 
 ## Plugins
 
-| Plugin                                                      | Type           | Source                    | Description                                                                                        |
-| ----------------------------------------------------------- | -------------- | ------------------------- | -------------------------------------------------------------------------------------------------- |
-| [esupgrade](https://github.com/codingjoe/esupgrade)         | Skill          | `codingjoe/esupgrade`     | Auto-upgrade JavaScript and TypeScript syntax to new ECMAScript features based on browser support. |
-| [VoIP](https://codingjoe.dev/VoIP/)                         | Skill + MCP    | `codingjoe/VoIP`          | Async VoIP library for the AI age. Bundles an MCP server to make phone calls on your behalf.       |
-| [naming-things](https://github.com/codingjoe/naming-things) | Skill          | `codingjoe/naming-things` | Naming conventions guidelines — solving computer science's second-hardest problem.                 |
-| [reLint](https://github.com/codingjoe/relint)               | Skill          | `codingjoe/relint`        | Regular Expression Linter — write your own linting rules using regular expressions.                |
-| [SuperJoe](https://github.com/codingjoe/superjoe)           | Skill + Agents | `codingjoe/superjoe`      | SuperJoe — CodingJoe's digital clone following his coding guidelines and best practices.           |
+| Plugin                                                            | Type           | Source                       | Description                                                                                        |
+| ----------------------------------------------------------------- | -------------- | ---------------------------- | -------------------------------------------------------------------------------------------------- |
+| [esupgrade](https://github.com/codingjoe/esupgrade)               | Skill          | `codingjoe/esupgrade`        | Auto-upgrade JavaScript and TypeScript syntax to new ECMAScript features based on browser support. |
+| [VoIP](https://codingjoe.dev/VoIP/)                               | Skill + MCP    | `codingjoe/VoIP`             | Async VoIP library for the AI age. Bundles an MCP server to make phone calls on your behalf.       |
+| [naming-things](https://github.com/codingjoe/naming-things)       | Skill          | `codingjoe/naming-things`    | Naming conventions guidelines — solving computer science's second-hardest problem.                 |
+| [reLint](https://github.com/codingjoe/relint)                     | Skill          | `codingjoe/relint`           | Regular Expression Linter — write your own linting rules using regular expressions.                |
+| [SuperJoe](https://github.com/codingjoe/superjoe)                 | Skill + Agents | `codingjoe/superjoe`         | SuperJoe — CodingJoe's digital clone following his coding guidelines and best practices.           |
+| [Einfache Sprache](https://github.com/codingjoe/einfache-sprache) | Skill          | `codingjoe/einfache-sprache` | Write and check German text in Einfache Sprache to DIN 8581-1. Ships a checker and a test suite.   |
 
 ## Install
 
@@ -29,6 +30,7 @@ Add this marketplace and install any of its plugins:
 /plugin install naming-things@codingjoe
 /plugin install relint@codingjoe
 /plugin install superjoe@codingjoe
+/plugin install einfache-sprache@codingjoe
 ```
 
 ### Codex
@@ -42,6 +44,7 @@ codex plugin add voip@codingjoe
 codex plugin add naming-things@codingjoe
 codex plugin add relint@codingjoe
 codex plugin add superjoe@codingjoe
+codex plugin add einfache-sprache@codingjoe
 ```
 
 ## License

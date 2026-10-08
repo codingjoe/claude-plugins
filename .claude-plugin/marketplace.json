@@ -1,6 +1,6 @@
 {
   "$schema": "https://code.claude.com/docs/en/plugin-marketplaces",
-  "description": "CodingJoe's Claude Code marketplace \u2014 skills and MCP servers for esupgrade, VoIP, naming-things, reLint, and SuperJoe.",
+  "description": "CodingJoe's Claude Code marketplace — skills and MCP servers for esupgrade, VoIP, naming-things, reLint, SuperJoe, and Einfache Sprache.",
   "interface": {
     "displayName": "CodingJoe's Codex Marketplace"
   },
@@ -78,7 +78,7 @@
         "email": "security@codingjoe.dev",
         "name": "Johannes Maron"
       },
-      "description": "Naming conventions guidelines \u2014 solving computer science's second-hardest problem.",
+      "description": "Naming conventions guidelines — solving computer science's second-hardest problem.",
       "displayName": "naming-things",
       "homepage": "https://github.com/codingjoe/naming-things",
       "keywords": [
@@ -99,7 +99,7 @@
         "email": "security@codingjoe.dev",
         "name": "Johannes Maron"
       },
-      "description": "Regular Expression Linter \u2014 write your own linting rules using regular expressions. Skills for running relint and authoring new rules.",
+      "description": "Regular Expression Linter — write your own linting rules using regular expressions. Skills for running relint and authoring new rules.",
       "displayName": "reLint",
       "homepage": "https://github.com/codingjoe/relint",
       "keywords": [
@@ -121,7 +121,7 @@
         "email": "security@codingjoe.dev",
         "name": "Johannes Maron"
       },
-      "description": "SuperJoe \u2014 CodingJoe's digital clone following his coding guidelines and best practices.",
+      "description": "SuperJoe — CodingJoe's digital clone following his coding guidelines and best practices.",
       "displayName": "SuperJoe",
       "homepage": "https://github.com/codingjoe/superjoe",
       "keywords": [
@@ -135,6 +135,31 @@
       "source": {
         "source": "url",
         "url": "https://github.com/codingjoe/superjoe"
+      }
+    },
+    {
+      "author": {
+        "email": "security@codingjoe.dev",
+        "name": "Johannes Maron"
+      },
+      "description": "Write and check German text in Einfache Sprache, plain language to DIN 8581-1. Short sentences, active voice, no officialese, every technical term explained. Ships a checker and a test suite. Refuses when Leichte Sprache is what the reader actually needs.",
+      "displayName": "Einfache Sprache",
+      "homepage": "https://github.com/codingjoe/einfache-sprache",
+      "keywords": [
+        "german",
+        "plain-language",
+        "einfache-sprache",
+        "accessibility",
+        "din-8581",
+        "officialese",
+        "barrierefreiheit"
+      ],
+      "license": "AGPL-3.0-or-later",
+      "name": "einfache-sprache",
+      "repository": "https://github.com/codingjoe/einfache-sprache",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/codingjoe/einfache-sprache"
       }
     }
   ]
