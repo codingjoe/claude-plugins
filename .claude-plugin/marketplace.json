@@ -1,6 +1,6 @@
 {
   "$schema": "https://code.claude.com/docs/en/plugin-marketplaces",
-  "description": "CodingJoe's Claude Code marketplace \u2014 skills and MCP servers for esupgrade, VoIP, naming-things, reLint, SuperJoe, and Einfache Sprache.",
+  "description": "CodingJoe's Claude Code marketplace \u2014 skills and MCP servers for esupgrade, cssupgrade, VoIP, naming-things, reLint, SuperJoe, and Einfache Sprache.",
   "interface": {
     "displayName": "CodingJoe's Codex Marketplace"
   },
@@ -33,6 +33,31 @@
       "source": {
         "source": "url",
         "url": "https://github.com/codingjoe/esupgrade"
+      }
+    },
+    {
+      "author": {
+        "email": "security@codingjoe.dev",
+        "name": "Johannes Maron"
+      },
+      "description": "Auto-upgrade CSS syntax to new features based on browser support.",
+      "displayName": "CSSupgrade",
+      "homepage": "https://github.com/codingjoe/cssupgrade",
+      "keywords": [
+        "css",
+        "modernize",
+        "upgrade",
+        "codemod",
+        "ast",
+        "transform",
+        "nesting"
+      ],
+      "license": "BSD-2-Clause",
+      "name": "cssupgrade",
+      "repository": "https://github.com/codingjoe/cssupgrade",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/codingjoe/cssupgrade"
       }
     },
     {
